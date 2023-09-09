@@ -1,0 +1,17 @@
+# main.tf
+# Provider configuration
+provider "your_provider" {
+  # Provider-specific configurations
+}
+# Define virtual machines or cloud instances
+resource "your_provider_virtual_machine" "master_node" {
+  # Instance configuration
+}
+resource "your_provider_virtual_machine" "worker_node" {
+  # Instance configuration
+}
+# Define network configuration, load balancers, etc.
+resource "your_provider_network" "network" {
+  # Network configuration
+}
+# Other infrastructure resources as required
