@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_TerraformKubernetes_1694626786243-push-trigger-input-set
+  identifier: Build_TerraformKubernetes_1694626786243pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_TerraformKubernetes_1694626786243
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
